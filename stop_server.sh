@@ -1,8 +1,4 @@
 #! /bin/bash
-
-pid=$(ps -ef | grep 'node listen.js' | grep -v grep | awk '{print $2}')
-
-echo $pid
-kill -9 $pid
+docker stop tiktok-signature
 
 echo stop over
