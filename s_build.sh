@@ -1,1 +1,1 @@
-docker build . -t tiktok-signature
+docker build . -t tiktok-signature-x
